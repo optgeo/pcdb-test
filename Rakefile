@@ -18,6 +18,10 @@ end
 
 desc 'create mbtiles'
 task :tippecanoe do
-#  sh "tippecanoe --cluster-densest-as-needed --base-zoom=20 -z20 -Z20 -f -o tiles.mbtiles src/#{ID}-3.geojsonseq"
-  sh "tippecanoe --no-feature-limit --no-tile-size-limit --cluster-densest-as-needed --full-detail=10 --low-detail=10 --minimum-detail=10 --base-zoom=22 -z22 -Z22 -f -o tiles.mbtiles src/#{ID}-3.geojsonseq"
+  sh "tippecanoe --no-feature-limit --no-tile-size-limit --drop-densest-as-needed --full-detail=9 --low-detail=9 --base-zoom=23 --minimum-zoom=15 --maximum-zoom=23 -f -o tiles.mbtiles src/#{ID}-3.geojsonseq"
 end
+
+desc 'expand to the filesystem'
+task :expand
+end
+

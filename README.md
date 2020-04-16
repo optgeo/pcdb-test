@@ -18,6 +18,7 @@ rake download
 rake shapefile
 rake geojsonseq
 rake tippecanoe
+rake expand
 ```
 
 # vector tile specifications
