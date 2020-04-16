@@ -16,7 +16,8 @@ yarn
 rake -T
 rake download
 rake shapefile
-rake convert
+rake geojsonseq
+rake tippecanoe
 ```
 
 # vector tile specifications
