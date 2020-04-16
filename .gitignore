@@ -1,3 +1,7 @@
+src/30*
+tiles.mbtiles
+tiles.mbtiles-journal
+
 # Logs
 logs
 *.log

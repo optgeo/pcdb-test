@@ -1,0 +1,11 @@
+{
+  "name": "pcdb-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:optgeo/pcdb-test",
+  "author": "Hidenori Fujimura <hfu@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "json-text-sequence": "^0.1.1"
+  }
+}
