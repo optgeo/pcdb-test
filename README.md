@@ -25,8 +25,8 @@ rake host
 
 # vector tile specifications
 - layer name: pc
-- minzoom: 22
-- maxzoom: 22
+- minzoom: 12
+- maxzoom: 24
 
 # see also
 - https://pointcloud.pref.shizuoka.jp/lasmap/ankendetail?ankenno=30I8399011219
