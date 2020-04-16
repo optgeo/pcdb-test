@@ -54,7 +54,7 @@
       "maxzoom": 24,
       "minzoom": 12,
       "tiles": [
-        "http://localhost:9966/zxy/{z}/{x}/{y}.pbf"
+        "https://optgeo.github.io/pcdb-test/zxy/{z}/{x}/{y}.pbf"
       ],
       "type": "vector"
     }
