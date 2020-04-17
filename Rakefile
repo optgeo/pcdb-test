@@ -41,7 +41,9 @@ end
 desc 'build the style'
 task :style do
   sh 'parse-hocon hocon/style.conf > docs/style.json'
+  sh 'parse-hocon hocon/ort.conf > docs/ort.json'
   sh 'gl-style-validate docs/style.json'
+  sh 'gl-style-validate docs/ort.json'
 end
 
 desc 'host the site'
